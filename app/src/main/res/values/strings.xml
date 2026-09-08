@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pitch Player</string>
+    <string name="export_channel_name">Downloads</string>
+    <string name="export_channel_description">Progress for pitch-shifted downloads</string>
+    <string name="export_done_title">Download complete</string>
+    <string name="export_failed_title">Download failed</string>
+</resources>
