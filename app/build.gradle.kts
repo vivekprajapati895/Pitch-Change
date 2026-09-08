@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.pitchplayer.app"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.pitchplayer.app"
@@ -57,7 +57,11 @@ android {
         resources.excludes += setOf(
             "/META-INF/{AL2.0,LGPL2.1}",
             "META-INF/DEPENDENCIES",
-            "META-INF/INDEX.LIST"
+            "META-INF/INDEX.LIST",
+            "META-INF/LICENSE*",
+            "META-INF/NOTICE*",
+            "META-INF/*.kotlin_module",
+            "META-INF/versions/9/OSGI-INF/MANIFEST.MF"
         )
     }
 }
